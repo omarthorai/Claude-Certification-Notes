@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "188 cm",
+      "weight": "82 kg",
+      "goal": "muscle gain",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day with specific foods and portions",
+      "Total daily calories support muscle gain for a lean endurance athlete (approximately 3000-3500 kcal)",
+      "Protein content is high enough to support muscle growth (minimum 1.6g per kg body weight, ~130g total)",
+      "Plan is compact and concise, presented in a clear, easy-to-follow format"
+    ],
+    "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a high-performance endurance athlete (tall, lean weight) aiming for muscle gain with no dietary restrictions - verifies the prompt can create high-calorie, protein-rich meal plans for realistic athletic goals"
+  },
+  {
+    "prompt_inputs": {
+      "height": "168 cm",
+      "weight": "82 kg",
+      "goal": "weight loss",
+      "restrictions": "vegetarian, nut allergy"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and covers one full day with breakfast, lunch, dinner, and snacks",
+      "All meals are vegetarian and completely nut-free",
+      "Nutrition guidance supports weight loss while maintaining athletic performance",
+      "Plan is practical and achievable for a single athlete to prepare"
+    ],
+    "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a shorter, heavier athlete with weight loss goal and multiple dietary restrictions (vegetarian + nut allergy) - ensures the prompt handles constraint complexity and still produces balanced, achievable nutrition guidance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "168 cm",
+      "weight": "58 kg",
+      "goal": "Improve speed and agility for competitive sprinting",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus snacks for one full day",
+      "Nutritional strategy emphasizes carbohydrates and lean protein appropriate for speed/agility training",
+      "Plan is concise and practical for a lightweight youth athlete (58 kg)"
+    ],
+    "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+    "scenario": "Testing with a youth athlete (lower weight range) focused on speed/agility improvement with minimal restrictions - validates that the prompt scales appropriately for different body compositions and creates sport-specific nutritional strategies"
+  }
+]

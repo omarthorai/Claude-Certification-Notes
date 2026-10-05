@@ -1,0 +1,64 @@
+[
+  {
+    "output": "# 1-Day Muscle Gain Meal Plan\n**Athlete: 188cm, 82kg | Goal: Muscle Gain**\n\n---\n\n## Daily Nutritional Targets\n- **Calories:** 3,300 kcal\n- **Protein:** 164g (2.0g per kg bodyweight)\n- **Carbohydrates:** 429g (5.2g per kg bodyweight)\n- **Fat:** 92g (1.1g per kg bodyweight)\n\n---\n\n## Meal Schedule\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 680 | P: 30g | C: 88g | F: 18g*\n\n- Oatmeal (85g dry) with water\n- Banana (160g)\n- Whole eggs (2 large) + egg whites (3)\n- Honey (18g)\n- Olive oil (5g) for cooking\n\n---\n\n### **MID-MORNING SNACK** (10:00 AM)\n*Calories: 340 | P: 32g | C: 38g | F: 7g*\n\n- Greek yogurt (220g, plain)\n- Granola (45g)\n- Blueberries (90g)\n- Almonds (15g)\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 780 | P: 54g | C: 88g | F: 20g*\n\n- Chicken breast (210g grilled)\n- Brown rice (160g cooked)\n- Broccoli (160g steamed)\n- Olive oil (10g) for cooking\n- Salt & pepper to taste\n\n---\n\n### **PRE-WORKOUT SNACK** (3:30 PM)\n*Calories: 300 | P: 12g | C: 58g | F: 4g*\n\n- White rice cakes (55g)\n- Peanut butter (20g)\n- Apple (190g)\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 850 | P: 54g | C: 98g | F: 24g*\n\n- Lean ground beef (210g, 90/10)\n- Sweet potato (270g baked)\n- Mixed vegetables (160g: carrots, peppers, onions)\n- Olive oil (10g) for cooking\n\n---\n\n### **EVENING SNACK** (9:30 PM)\n*Calories: 350 | P: 40g | C: 59g | F: 19g*\n\n- Cottage cheese (210g, 2%)\n- Oats (38g dry, mixed in)\n- Walnuts (18g)\n- Honey (8g)\n\n---\n\n## Daily Totals\n\u2713 **Calories:** 3,300 kcal  \n\u2713 **Protein:** 222g  \n\u2713 **Carbohydrates:** 429g  \n\u2713 **Fat:** 92g  \n\n---\n\n## Notes\n- Drink **3-4 liters of water** throughout the day\n- Time carbs around workouts for optimal performance and recovery\n- All portions are measured in grams for accuracy\n- Budget-friendly: Uses affordable staples (chicken, eggs, rice, oats, ground beef)\n- Protein intake exceeds minimum to support muscle hypertrophy\n- Carbs timed strategically around training for energy and glycogen replenishment",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "188 cm",
+        "weight": "82 kg",
+        "goal": "muscle gain",
+        "restrictions": "none"
+      },
+      "solution_criteria": [
+        "Meal plan covers all meals for one full day with specific foods and portions",
+        "Total daily calories support muscle gain for a lean endurance athlete (approximately 3000-3500 kcal)",
+        "Protein content is high enough to support muscle growth (minimum 1.6g per kg body weight, ~130g total)",
+        "Plan is compact and concise, presented in a clear, easy-to-follow format"
+      ],
+      "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a high-performance endurance athlete (tall, lean weight) aiming for muscle gain with no dietary restrictions - verifies the prompt can create high-calorie, protein-rich meal plans for realistic athletic goals"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively addresses all mandatory requirements with precision. Daily caloric intake is clearly stated (3,300 kcal), macronutrient breakdown is provided both in targets and daily totals, and all six meals include exact foods with gram-based portions and specific timing. The plan supports muscle gain with 222g protein (well above the 130g minimum and 1.6g/kg threshold), appropriate carbohydrate timing around workouts, and strategic meal spacing. The format is compact and highly readable. The only minor issue is an internal inconsistency between the stated protein target (164g) and actual daily total (222g), though the higher amount is nutritionally superior for muscle gain. The plan meets all secondary criteria regarding caloric support, protein adequacy, and presentation clarity."
+  },
+  {
+    "output": "# 1-Day Weight Loss Meal Plan\n**Athlete: 168cm, 82kg | Goal: Weight Loss | Vegetarian, Nut Allergy**\n\n---\n\n## Daily Nutritional Targets\n- **Calories:** 2,200 kcal\n- **Protein:** 123g (1.5g per kg bodyweight)\n- **Carbohydrates:** 275g (3.4g per kg bodyweight)\n- **Fat:** 61g (0.74g per kg bodyweight)\n\n---\n\n## Meal Schedule\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 380 | P: 18g | C: 52g | F: 10g*\n\n- Oatmeal (70g dry) with water\n- Egg whites (4 large)\n- Whole egg (1 large)\n- Blueberries (100g fresh)\n- Honey (10g)\n- Olive oil (5g) for cooking\n\n---\n\n### **MID-MORNING SNACK** (10:00 AM)\n*Calories: 180 | P: 20g | C: 18g | F: 4g*\n\n- Greek yogurt (200g, plain, 0% fat)\n- Granola (20g low-sugar)\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 520 | P: 32g | C: 68g | F: 12g*\n\n- Chickpea & vegetable curry (250g cooked):\n  - Chickpeas (120g cooked)\n  - Spinach (80g)\n  - Tomatoes (50g)\n  - Onion (30g)\n- Brown rice (100g cooked)\n- Olive oil (8g) for cooking\n- Turmeric, cumin, salt to taste\n\n---\n\n### **AFTERNOON SNACK** (3:30 PM)\n*Calories: 220 | P: 12g | C: 35g | F: 4g*\n\n- Lentil soup (300g prepared):\n  - Red lentils (80g dry weight equivalent)\n  - Vegetable broth (200ml)\n  - Carrot (40g)\n  - Celery (30g)\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 620 | P: 28g | C: 78g | F: 18g*\n\n- Tofu stir-fry (200g firm tofu, pressed)\n- Mixed vegetables (250g: broccoli, bell peppers, mushrooms, snap peas)\n- Brown rice (120g cooked)\n- Olive oil (10g) for cooking\n- Low-sodium soy sauce (10ml)\n- Garlic & ginger to taste\n\n---\n\n### **EVENING SNACK** (9:00 PM)\n*Calories: 280 | P: 13g | C: 24g | F: 13g*\n\n- Cottage cheese (150g, 2% fat)\n- Whole grain bread (50g, 2 slices)\n- Cucumber slices (100g)\n- Olive oil (5g) for drizzle\n- Salt & pepper to taste\n\n---\n\n## Daily Totals\n\u2713 **Calories:** 2,200 kcal  \n\u2713 **Protein:** 123g  \n\u2713 **Carbohydrates:** 275g  \n\u2713 **Fat:** 61g  \n\n---\n\n## Notes\n- Drink **3-4 liters of water** throughout the day\n- All meals are vegetarian and completely nut-free\n- Focus on high-protein plant sources: legumes, tofu, Greek yogurt, eggs\n- Budget-friendly: Uses affordable staples (lentils, chickpeas, oats, rice, eggs)\n- Caloric deficit supports steady weight loss (approximately 0.5-1kg per week)\n- Space meals 2.5-3 hours apart to maintain energy and satiety\n- All portions measured in grams for accuracy and consistency",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "168 cm",
+        "weight": "82 kg",
+        "goal": "weight loss",
+        "restrictions": "vegetarian, nut allergy"
+      },
+      "solution_criteria": [
+        "Meal plan is compact and covers one full day with breakfast, lunch, dinner, and snacks",
+        "All meals are vegetarian and completely nut-free",
+        "Nutrition guidance supports weight loss while maintaining athletic performance",
+        "Plan is practical and achievable for a single athlete to prepare"
+      ],
+      "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a shorter, heavier athlete with weight loss goal and multiple dietary restrictions (vegetarian + nut allergy) - ensures the prompt handles constraint complexity and still produces balanced, achievable nutrition guidance"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively satisfies all mandatory requirements with clear daily caloric intake, detailed macronutrient breakdown, and meals with exact foods, portions, and precise timing. All secondary criteria are met: vegetarian and nut-free compliance is thorough, nutrition supports weight loss with adequate protein for athletic performance, and the plan is practical and achievable. The meal structure is compact and well-organized. Minor weaknesses exist in caloric targeting rationale and protein distribution optimization, but these do not violate the stated criteria. The solution delivers exactly what was requested without unnecessary additions."
+  },
+  {
+    "output": "# 1-Day Speed & Agility Meal Plan\n**Athlete: 168cm, 58kg | Goal: Improve Speed and Agility for Competitive Sprinting**\n\n---\n\n## Daily Nutritional Targets\n- **Calories:** 2,400 kcal\n- **Protein:** 116g (2.0g per kg bodyweight)\n- **Carbohydrates:** 348g (6.0g per kg bodyweight)\n- **Fat:** 58g (1.0g per kg bodyweight)\n\n---\n\n## Meal Schedule\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 520 | P: 22g | C: 72g | F: 12g*\n\n- Oatmeal (70g dry) with water\n- Banana (150g)\n- Whole eggs (2 large)\n- Honey (12g)\n- Olive oil (5g) for cooking\n\n---\n\n### **MID-MORNING SNACK** (10:00 AM)\n*Calories: 280 | P: 24g | C: 32g | F: 5g*\n\n- Greek yogurt (180g, plain)\n- Granola (30g)\n- Berries (75g mixed)\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 620 | P: 42g | C: 78g | F: 12g*\n\n- Chicken breast (170g grilled)\n- Brown rice (130g cooked)\n- Broccoli (120g steamed)\n- Olive oil (8g) for cooking\n- Salt & pepper to taste\n\n---\n\n### **PRE-WORKOUT SNACK** (3:30 PM)\n*Calories: 240 | P: 8g | C: 48g | F: 2g*\n\n- White rice cakes (45g)\n- Banana (120g)\n- Honey (10g)\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 550 | P: 38g | C: 72g | F: 12g*\n\n- Lean ground turkey (160g, 93/7)\n- Sweet potato (200g baked)\n- Mixed vegetables (120g: carrots, peppers, zucchini)\n- Olive oil (8g) for cooking\n\n---\n\n### **EVENING SNACK** (9:30 PM)\n*Calories: 190 | P: 22g | C: 18g | F: 5g*\n\n- Cottage cheese (150g, 2%)\n- Almonds (12g)\n\n---\n\n## Daily Totals\n\u2713 **Calories:** 2,400 kcal  \n\u2713 **Protein:** 156g  \n\u2713 **Carbohydrates:** 320g  \n\u2713 **Fat:** 48g  \n\n---\n\n## Notes\n- Drink **2.5-3 liters of water** throughout the day\n- Time carbs around workouts (pre-workout snack 1-2 hours before training)\n- Prioritize carbohydrates for explosive energy needed in sprinting\n- All portions measured in grams for precision\n- Budget-friendly: Uses affordable staples (chicken, turkey, eggs, rice, oats, sweet potatoes)\n- Consider light stretching and mobility work on rest days",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "168 cm",
+        "weight": "58 kg",
+        "goal": "Improve speed and agility for competitive sprinting",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus snacks for one full day",
+        "Nutritional strategy emphasizes carbohydrates and lean protein appropriate for speed/agility training",
+        "Plan is concise and practical for a lightweight youth athlete (58 kg)"
+      ],
+      "task_description": "Write a compact, consie 1 day meal plan for a single athlete.",
+      "scenario": "Testing with a youth athlete (lower weight range) focused on speed/agility improvement with minimal restrictions - validates that the prompt scales appropriately for different body compositions and creates sport-specific nutritional strategies"
+    },
+    "score": 7,
+    "reasoning": "The solution fully satisfies all three mandatory requirements with clear daily caloric intake, detailed macronutrient breakdown, and specific meals with exact portions and timing. The nutritional strategy appropriately emphasizes carbohydrates for sprinting performance and uses lean proteins suitable for the athlete's weight class. However, there are notable issues: a mathematical discrepancy between stated and calculated totals, protein intake significantly exceeding the stated target (156g vs. 116g), and caloric recommendations that may be higher than necessary for a 58kg athlete without context on training volume. These are secondary criterion issues rather than mandatory requirement violations, but they represent practical concerns for implementation."
+  }
+]
